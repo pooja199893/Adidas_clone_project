@@ -1,0 +1,148 @@
+/* Container */
+.orderdetails-container {
+  width: 75%;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  font-family: Arial, sans-serif;
+}
+
+.orderdetails-left {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: left;
+}
+
+.orderdetails-right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Username */
+.orderdetails-username p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Order Header */
+.order-header p:first-child {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.order-header p:nth-child(2) {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.order-header p:nth-child(3) {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/* Product Card */
+.orderdetails-product-card {
+  display: flex;
+  border: 1px solid black;
+  height: 220px;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.orderdetails-card-left {
+  width: 30%;
+}
+
+.orderdetails-card-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.orderdetails-card-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px 20px;
+  position: relative;
+}
+
+.orderdetails-title-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.orderdetails-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  max-width: 70%;
+}
+
+.orderdetails-size {
+  margin-top: 15px;
+}
+
+.orderdetails-price-block {
+  display: flex;
+  gap: 10px;
+}
+
+.orderdetails-price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.orderdetails-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid grey;
+  padding: 8px;
+  width: 90px;
+  height: 50px;
+  cursor: pointer;
+  gap: 8px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Summary Section */
+.orderdetails-summary-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.orderdetails-summary {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.orderdetails-summary-left p,
+.orderdetails-summary-right p {
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+/* Back to Cart Button */
+.orderdetails-back-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  align-self: flex-start;
+}

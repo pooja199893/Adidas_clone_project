@@ -1,0 +1,31 @@
+.admin-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  background-color: #1a1a1a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.admin-logo {
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.admin-tabs span {
+  margin: 0 15px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+}
+
+.admin-tabs span:hover {
+  color: #f3b123;
+}
+
+.active-tab {
+  font-weight: bold;
+  border-bottom: 2px solid #f3b123;
+}

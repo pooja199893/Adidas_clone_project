@@ -1,0 +1,226 @@
+/* Wishlist.css */
+
+.wishlist-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 40px 20px;
+  background-color: #fff;
+  font-family: "Helvetica", "Arial", sans-serif;
+  margin: auto;
+}
+
+.wishlist-header {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.wishlist-title {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.wishlist-count {
+  font-size: 13px;
+  color: #222;
+  font-weight: 500;
+}
+
+.wishlist-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  width: 80%;
+  margin: auto;
+  /* max-width: 600px; */
+  /* border: 1px solid red; */
+}
+
+.wishlist-left {
+  width: 160px; /* just a bit bigger than image */
+  text-align: left;
+}
+
+.wishlist-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wishlist-item-img {
+  width: 220px;
+  height: 220px;
+  /* background-color: #f5f5f5; */
+  overflow: hidden;
+  position: relative;
+}
+
+.wishlist-item-img img {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+}
+
+.wishlist-product-name {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  text-align: left;
+}
+
+.wishlist-right {
+  width: 90%; /* larger than image and left section */
+  background-color: rgb(237,237,235);
+  padding: 24px;
+  height: fit-content;
+  margin-left: 30px;
+}
+
+.wishlist-info-box{
+    width: 100%;
+}
+
+.wishlist-info-box h3 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  text-align: left;
+}
+
+.wishlist-info-box ul {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 13px;
+  line-height: 1.6;
+  list-style: disc;
+}
+
+.wishlist-info-box ul>li{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.scantodownload{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.scantodownload > :nth-child(1){
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.scantodownload > :nth-child(2){
+    width: 15%;
+    margin-left: 30px;
+}
+
+.scantodownload > :nth-child(3){
+    width: 14%;
+    margin-left: 180px;
+}
+
+.wishlist-info-box p {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 14px 0 10px;
+  text-align: center;
+}
+
+.wishlist-info-box img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.wishlist-item {
+  width: 200px; /* or adjust as needed */
+  text-align: center;
+  cursor: pointer;
+}
+
+.wishlist-item-img {
+  position: relative;
+}
+
+.wishlist-item-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.wishlist-remove-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 22px;
+}
+
+.wishlist-price {
+  position: absolute;
+  bottom: 5px;
+  left: 18px;
+  background: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.wishlist-product-name {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.wishlist-right-full {
+  margin-bottom: 40px;
+  width: 90%; /* larger than image and left section */
+  background-color: rgb(237,237,235);
+  padding: 24px;
+  height: fit-content;
+}
+
+.wishlist-left.multi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.wishlist-item {
+  width: 200px; /* or whatever fits your design */
+}
+
+/* Only for the 2+ items layout */
+.wishlist-stack-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 40px;
+}
+.wishlist-item-img >img{
+  margin-left: 10px;
+}
+/* Specific class for single product layout */
+.wishlist-left.single {
+  width: 160px;
+}
+
+.wishlist-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+  width: 100%;
+}

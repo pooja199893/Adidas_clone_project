@@ -1,0 +1,151 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  z-index: 1000;
+}
+
+.login-popup {
+  position: relative;
+  background: #fff;
+  max-width: 420px;
+  width: 90%;
+  padding: 32px 24px;
+  border-radius: 8px;
+  overflow-y: auto;
+  max-height: 90vh;
+  font-family: Arial, sans-serif;
+}
+
+.popup-close-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.popup-adiclub-logo {
+  width: 100px;
+  margin-bottom: 16px;
+}
+
+.popup-heading {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.popup-subtext {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.popup-signin-text {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.popup-social-icons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+
+.popup-login-create-link {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.popup-login-create-link span {
+  color: rgb(0, 162, 255);
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+
+.popup-social-icons button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  background: #fff;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.popup-email-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 16px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+.popup-checkbox-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 12px;
+  margin-bottom: 14px;
+}
+
+.popup-checkbox-container input {
+  margin-top: 4px;
+}
+
+.popup-checkbox-container a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.popup-continue-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.popup-checkbox-container input[type="checkbox"]:checked {
+  background-color: black;   /* black fill */
+  border-color: black;
+}
+
+/* Optional: Add a checkmark inside the box when checked */
+.popup-checkbox-container input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 6px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}

@@ -1,0 +1,726 @@
+.supernovarise2{
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+.supernovarise2 > img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#supernovarise2text1{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 430px;
+    left: 110px;
+    background-color: white;
+    letter-spacing: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#supernovarise2text2 {
+  width: 24.5%;
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  top: 467px;
+  left: 110px;
+  background-color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Subheading line 2 */
+#supernovarise2text3 {
+  width: 15%;
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  top: 492px;
+  left: 110px;
+  background-color: white;
+  letter-spacing: 1px;
+  padding: 0 4px;
+}
+
+#supernovarise2shopnow{
+    width: 11%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    position: absolute;
+    top: 540px;
+    left: 110px;
+    z-index: 1;
+}
+
+#supernovarise2shopnow > div:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+#supernovarise2shopnow2{
+    width: 11%;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    position: absolute;
+    top: 545px;
+    left: 114px;
+}
+
+.whatshot2 {
+  width: 92.6%;
+  margin-left: 110px;
+  transition: margin-left 0.3s ease;
+  margin-top: 50px;
+  height: 660px;
+}
+
+.whatshot2-header {
+  text-align: left;
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+
+.whatshot2-slider-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.whatshot2-slider-container {
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  display: flex;
+  width: 100%;
+  transition: padding 0.3s ease;
+}
+
+.whatshot2-slider-container::-webkit-scrollbar {
+  display: none;
+}
+
+.whatshot2-card {
+  flex: 0 0 auto;
+  width: 330px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.whatshot2-hover-container {
+  transition: border 0.3s ease;
+  border: 2px solid transparent;
+  padding: 2px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.whatshot2-hover-container:hover {
+  border: 2px solid black;
+  background-color: #fff;
+}
+
+.whatshot2-media {
+  height: 400px;
+  overflow: hidden;
+}
+
+.whatshot2-media img,
+.whatshot2-media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.whatshot2-details {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-align: left;
+  height: 150px;
+  padding: 10px;
+  position: relative;
+  gap: 6px;
+}
+
+.whatshot2-title {
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  text-align: justify;
+}
+
+.whatshot2-desc {
+  font-size: 15px;
+  color: #555;
+  width: 80%;
+  text-align: justify;
+}
+
+.whatshot2-spacer {
+  flex: 1; /* pushes category to bottom */
+}
+
+.whatshot2-category {
+  font-size: 15px;
+  width: 80%;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  font-weight: 600;
+  text-align: justify;
+  text-decoration: underline;
+  text-underline-offset: 10px; 
+  text-decoration-thickness: 3.1px; 
+}
+
+.slider-arrow3 {
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 8px;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-arrow3.left {
+  left: 30px;
+}
+
+.slider-arrow3.right {
+  right: 30px;
+}
+
+.theracebegin{
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+.theracebegin > img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#adidasmercedes {
+    width: 6%;
+    height: 30px;
+    position: absolute;
+    top: 400px; /* moved above theracebegintext1 */
+    left: 110px;
+    background-color: white;
+}
+
+#adidasmercedes > img {
+    width: 90%;
+    height: 90%;
+    margin-top: 3px;
+    /* object-fit: cover; */
+}
+
+#theracebegintext1{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 431px;
+    left: 110px;
+    background-color: white;
+    letter-spacing: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#theracebegintext2 {
+  width: 23%;
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  top: 470px;
+  left: 110px;
+  background-color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Subheading line 2 */
+#theracebegintext3 {
+  width: 19.6%;
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  top: 494px;
+  left: 110px;
+  background-color: white;
+  letter-spacing: 1px;
+  padding: 0 4px;
+}
+
+#theracebeginshopnow{
+    width: 11%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    position: absolute;
+    top: 540px;
+    left: 110px;
+    z-index: 1;
+}
+
+#theracebeginshopnow > div:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+#theracebeginshopnow2{
+    width: 11%;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    position: absolute;
+    top: 545px;
+    left: 114px;
+}
+
+.superstarsamba {
+  width: 86%;
+  margin:auto;
+  height: 600px;
+  margin-top: 60px;
+}
+
+.superstarsamba-cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.superstarsamba-card {
+  flex: 0 0 25%; /* 4 cards equally spaced */
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  object-fit: cover;
+}
+
+.superstarsamba-hover-container {
+  transition: border 0.3s ease;
+  border: 2px solid transparent;
+  padding: 2px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.superstarsamba-hover-container:hover {
+  border: 2px solid black;
+  background-color: #fff;
+}
+
+.superstarsamba-media {
+  height: 430px;
+  overflow: hidden;
+}
+
+.superstarsamba-media img,
+.superstarsamba-media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.superstarsamba-details {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  height: 120px;
+  padding: 10px;
+  position: relative;
+  gap: 6px;
+}
+
+.superstarsamba-title {
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  text-align: justify;
+}
+
+.superstarsamba-desc {
+  font-size: 15px;
+  color: #555;
+  width: 80%;
+  text-align: justify;
+}
+
+.superstarsamba-spacer {
+  flex: 1;
+}
+
+.superstarsamba-category {
+  font-size: 15px;
+  width: 80%;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  font-weight: 600;
+  text-align: justify;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3.1px;
+}
+
+.adidaszne{
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+.adidaszne > img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#adidasznetext1{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 470px;
+    left: 110px;
+    background-color: white;
+    letter-spacing: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#adidasznetext2{
+    width: 20%;
+    color: black;
+    font-size: 16px;
+    position: absolute;
+    top: 510px;
+    left: 110px;
+    background-color: white;
+    letter-spacing: 1px;
+    width:19%
+}
+
+#adidaszneshopnow{
+    width: 11%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    position: absolute;
+    top: 550px;
+    left: 110px;
+    z-index: 1;
+}
+
+#adidaszneshopnow > div:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+#adidaszneshopnow2{
+    width: 11%;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    position: absolute;
+    top: 555px;
+    left: 114px;
+}
+
+.adimertop {
+  width: 86%;
+  height: 560px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.buytwoormoreshoestext {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  font-family: Arial, sans-serif;
+}
+
+.buytwoormoreshoestext1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
+}
+
+.buytwoormoreshoestext2 {
+  font-size: 17px;
+  cursor: pointer;
+  border-bottom: 2px solid black;
+  font-weight: 600;
+}
+
+.adimeramgcat {
+  display: flex;
+  margin-top: 10px;
+  gap: 8px;
+}
+
+.adimeramgcat div {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-weight: 100;
+  font-family: Arial, sans-serif;
+}
+
+.adimeramgcattext {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.adimeramgcattext2 {
+  transition: all 0.3s ease;
+}
+
+.adimeramgcattext2:hover {
+  background-color: #f2f2f2;
+}
+
+.cloths-slider-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.clothlist-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.differentcloths {
+  width: 24.5%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.differentcloths:hover {
+  border: 1px solid black;
+  box-shadow: 0 0 0 1px white inset;
+}
+
+.diffrentshoesimg {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.diffrentshoesimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 4px;
+  z-index: 2;
+}
+
+.differentshoesprice {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.differentshoestitle {
+  margin-top: 5px;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.differentshoescategory {
+  margin-top: 4px;
+  color: #888888;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 3;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.nav-arrow.left {
+  left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-arrow.right {
+  right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.cloths-slider-wrapper:hover .nav-arrow {
+  opacity: 1;
+}
+
+.progress-bar-container2 {
+  width: 100%;
+  height: 5px;
+  background-color: #e0e0e0;
+  margin: 10px auto;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.progress-bar2 {
+  height: 100%;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.mensclothdesc {
+  width: 37%;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  color: #111;
+  text-align: center;
+  height: 300px;
+}
+
+.mensclothdesc h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.mensclothdesc p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
+
+
+.menscategories {
+  width: 86%;
+  height: 360px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.menscategories2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.menscategories2 > div {
+  flex: 1 1 200px; /* allows flexibility and wrapping */
+  min-width: 200px;
+}
+
+.menscategories2 p:first-child {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.menscategories2 p {
+  font-size: 14px;
+  color: #333;
+  margin: 5px 0;
+  cursor: pointer;
+  margin-top: 26px;
+  text-align: justify;
+}
+
+.menscategories2 p:hover {
+  text-decoration: underline;
+}
+
+.mensnav{
+    height: 50px;
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    background-color: rgb(236,239,241);
+    letter-spacing: 2px;
+  }

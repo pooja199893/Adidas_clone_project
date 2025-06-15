@@ -1,0 +1,938 @@
+/* *{
+    font-family: ITC Avant Garde Gothic;
+} */
+
+.findyoursummerlook{
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+.findyoursummerlook > img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#summercolltext1{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 470px;
+    left: 110px;
+    background-color: white;
+    letter-spacing: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#summercolltext2{
+    width: 20%;
+    color: black;
+    font-size: 16px;
+    position: absolute;
+    top: 510px;
+    left: 110px;
+    background-color: white;
+    letter-spacing: 1px;
+    width:19%
+}
+
+#summercollshopnow{
+    width: 11%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    position: absolute;
+    top: 550px;
+    left: 110px;
+    z-index: 1;
+}
+
+#summercollshopnow > div:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+#summercollshopnow2{
+    width: 11%;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    position: absolute;
+    top: 555px;
+    left: 114px;
+}
+
+#shopbestofsum {
+  width: 86%;
+  height: 580px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#shopbestofsumtext1 {
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#shopbestofsumimgs {
+  width: 74%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.shopbestofsumimg-wrapper {
+  width: 32.9%;
+  margin-top: 10px;
+  position: relative;
+  border: 1px solid transparent;
+  padding-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.shopbestofsumimg-wrapper:hover {
+  border: 1px solid black;
+  box-shadow: 0 0 0 1px white inset;
+}
+
+.shopbestofsumimg-wrapper:hover::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 3px solid white; 
+  pointer-events: none;
+  z-index: 1;
+}
+
+.shopbestofsumimg {
+  height: 420px;
+  background-size: cover;
+  background-position: center;
+}
+
+#shopbestofsumimg1 {
+  background-image: url("https://brand.assets.adidas.com/image/upload/f_gif,fl_lossy,q_auto/shorts_1050x1400_0cfb84b37a.gif");
+}
+#shopbestofsumimg2 {
+  background-image: url("https://brand.assets.adidas.com/image/upload/f_gif,fl_lossy,q_auto/tshirts_1050x1400_66661a2984.gif");
+}
+#shopbestofsumimg3 {
+  background-image: url("https://brand.assets.adidas.com/image/upload/f_gif,fl_lossy,q_auto/slides_1050x1400_4db2f1b391.gif");
+}
+
+.shopbestofsumimgtext1 {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 17%;
+  font-weight: 600;
+  font-size: 18px;
+  border-bottom: 2px solid black;
+  padding-bottom: 4px;
+  color: black;
+}
+
+.shopbestofsumimgtext2 {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 21%;
+  font-weight: 600;
+  font-size: 18px;
+  border-bottom: 2px solid black;
+  padding-bottom: 4px;
+  color: black;
+}
+
+.shopbestofsumimgtext3 {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 16%;
+  font-weight: 600;
+  font-size: 18px;
+  border-bottom: 2px solid black;
+  padding-bottom: 4px;
+  color: black;
+}
+
+.buytwoormoreshoes {
+  width: 86%;
+  height: 560px;
+  margin: auto; 
+}
+
+.buytwoormoreshoestext {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  font-family: Arial, sans-serif;
+}
+
+.buytwoormoreshoestext1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
+}
+
+.buytwoormoreshoestext2 {
+  font-size: 17px;
+  cursor: pointer;
+  border-bottom: 2px solid black;
+  font-weight: 600;
+}
+
+.shoeclothaccess {
+  display: flex;
+  margin-top: 10px;
+  gap: 8px;
+}
+
+.shoeclothaccess div {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-weight: 100;
+  font-family: Arial, sans-serif;
+}
+
+.shoes {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.clothing, .accessories {
+  transition: all 0.3s ease;
+}
+
+.clothing:hover, .accessories:hover {
+  background-color: #f2f2f2;
+}
+
+.shoe-slider-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.shoelist-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.differentshoes {
+  width: 24.5%;
+  height: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.differentshoes:hover {
+  border: 1px solid black;
+  box-shadow: 0 0 0 1px white inset;
+}
+
+.diffrentshoesimg {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.diffrentshoesimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 4px;
+  z-index: 2;
+}
+
+.differentshoesprice {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.differentshoestitle {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.differentshoescategory {
+  margin-top: 4px;
+  color: #888888;
+  font-size: 14px;
+}
+
+.nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 3;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.nav-arrow.left {
+  left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-arrow.right {
+  right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.shoe-slider-wrapper:hover .nav-arrow {
+  opacity: 1;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 5px;
+  background-color: #e0e0e0;
+  margin: 10px auto;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.supernovarise {
+  width: 100%;
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+}
+
+.supernovarise > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+}
+
+/* Main heading */
+#supernovarisetext1 {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  top: 380px;
+  left: 110px;
+  background-color: white;
+  letter-spacing: 1px;
+  padding: 0 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Subheading line 1 */
+#supernovarisetext2 {
+  width: 24.5%;
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  top: 420px;
+  left: 110px;
+  background-color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Subheading line 2 */
+#supernovarisetext3 {
+  width: 15%;
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  top: 445px;
+  left: 110px;
+  background-color: white;
+  letter-spacing: 1px;
+  padding: 0 4px;
+}
+
+#supernovarisewomen {
+  width: 7.5%;
+  height: 35px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  position: absolute;
+  top: 490px;
+  left: 110px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+#supernovarisewomen > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+#supernovarisemen {
+  width: 6%;
+  height: 35px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  position: absolute;
+  top: 490px;
+  left: 240px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+#supernovarisemen > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.whatshot {
+  width: 92.6%;
+  margin-left: 110px;
+  transition: margin-left 0.3s ease;
+  margin-top: 50px;
+}
+
+.whatshot-header {
+    text-align: left;
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+
+.whatshot-slider-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* .whatshot-slider-container {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  display: flex;
+  width: 100%;
+  transition: padding-right 0.3s ease;
+} */
+
+.whatshot-card {
+  flex: 0 0 auto;
+  width: 330px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hover-container {
+  transition: border 0.3s ease;
+  border: 2px solid transparent;
+  padding: 2px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hover-container:hover {
+  border: 2px solid black;
+  background-color: #fff;
+}
+
+.whatshot-media {
+  height: 400px;
+  overflow: hidden;
+}
+
+.whatshot-media img,
+.whatshot-media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.whatshot-details {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  text-align: left;
+  height: 150px;
+  padding: 10px;
+  position: relative;
+  gap: 6px;
+}
+
+.whatshot-title {
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  text-align: justify;
+}
+
+.whatshot-desc {
+  font-size: 15px;
+  color: #555;
+  width: 80%;
+  text-align: justify;
+}
+
+.whatshot-spacer {
+  flex: 1; /* pushes category to bottom */
+}
+
+.whatshot-category {
+  font-size: 15px;
+  width: 80%;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  font-weight: 600;
+  text-align: justify;
+  text-decoration: underline;
+  text-underline-offset: 10px; 
+  text-decoration-thickness: 3.1px; 
+}
+
+.slider-arrow {
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 8px;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-arrow.left {
+  left: 30px;
+}
+
+.slider-arrow.right {
+  right: 30px;
+}
+
+.whatshot-slider-container {
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  display: flex;
+  width: 100%;
+  transition: padding 0.3s ease;
+}
+
+.whatshot-slider-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.pictureperfect{
+    width: 100%;
+    height: 650px;
+    position: relative;
+    margin-top: 60px;
+}
+
+.pictureperfect > img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#pictureperfecttext1{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 470px;
+    left: 110px;
+    background-color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#pictureperfecttext2{
+    width: 18%;
+    color: black;
+    font-size: 16px;
+    position: absolute;
+    top: 510px;
+    left: 110px;
+    background-color: white;
+    padding: 2px;
+}
+
+#pictureperfectshopnow{
+    width: 11%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    position: absolute;
+    top: 550px;
+    left: 110px;
+    z-index: 1;
+}
+
+#pictureperfectshopnow > div:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+#pictureperfectshopnow2{
+    width: 11%;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    position: absolute;
+    top: 555px;
+    left: 114px;
+}
+
+.selectsport {
+  width: 92.6%;
+  margin-left: 110px;
+  transition: margin-left 0.3s ease;
+  margin-top: 50px;
+  height: 620px;
+}
+
+.selectsport-header {
+  text-align: left;
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+
+.selectsport-slider-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.selectsport-slider-container {
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+  display: flex;
+  width: 100%;
+  transition: padding 0.3s ease;
+}
+
+.selectsport-slider-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.selectsport-card {
+  flex: 0 0 auto;
+  width: 330px;
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hover-container {
+  transition: border 0.3s ease;
+  border: 2px solid transparent;
+  padding: 2px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hover-container:hover {
+  border: 2px solid black;
+  background-color: #fff;
+}
+
+.selectsport-media {
+  height: 400px;
+  overflow: hidden;
+}
+
+.selectsport-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.selectsport-details {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.selectsport-title {
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  text-align: justify;
+  text-decoration: underline;
+  text-underline-offset: 6px; 
+  text-decoration-thickness: 3.1px; 
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.slider-arrow2 {
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 8px;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-arrow2.left {
+  left: 30px;
+}
+
+.slider-arrow2.right {
+  right: 30px;
+}
+
+.popularrightnow {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 340px;
+}
+
+.popularrightnow > p {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0;
+}
+
+.popularrightnow-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.popularrightnowtext {
+  flex: 0 0 calc(33.33% - 10.66px); 
+  border-bottom: 1px solid #000;
+  padding: 8px 0;
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.adidasdesc {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  height: 970px;
+}
+
+.adidasdesc h1 {
+  width: 46%;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  line-height: 1.4;
+}
+
+.adidasdesc p {
+  width: 40%;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.adidasdesc img {
+  width: 6%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.joinadidas{
+  width: 100%;
+  height: 120px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 40px;
+}
+
+.joinadidas > p{
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#signupforfree{
+    width: 14%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+#signupforfree > div:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+#signupforfree2{
+    width: 14%;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    position: absolute;
+    top: 38px;
+    left: 866px;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.footer1 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: -40px;
+}
+
+.footer1 > div {
+  flex: 1;
+  min-width: 160px;
+  padding-bottom: 40px;
+  text-align: justify;
+}
+
+.footer1 p:first-child {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+
+.footer1 p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #333;
+  cursor: pointer;
+}
+
+.footer1 p:hover {
+  text-decoration: underline;
+}
+
+.footer2 {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.5;
+  color: rgb(171,173,178);
+}
+
+.footer2 > p:nth-child(2){
+  margin-top: 20px;
+}
+
+.instagram {
+  background-color: #333;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+
+
+

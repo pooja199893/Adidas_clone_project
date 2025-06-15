@@ -1,0 +1,200 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .parentdiv {
+      margin: auto;
+      width: 100%;
+    }
+
+  a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .Navbar1{
+    height: 40px;
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11.5px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    letter-spacing: 2px;
+  overflow: hidden;
+  }
+
+.fade-message {
+  opacity: 0;
+  animation: fadeInOut 5s ease-in-out forwards;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-10px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(10px); }
+}
+
+  .Navbar2{
+    height: 80px;
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    padding-right: 32px;
+    line-height: 1.5;
+    border-bottom: 1px solid black;
+  }
+  
+
+  .leftNavbar2{
+    /* border: 1px solid red; */
+    width: 68%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 22px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .leftNavbar2 > span{
+    cursor: pointer;
+  }
+
+  .leftNavbar2_1{
+    width: 54%;
+    display: flex;
+    align-self: last baseline;
+    justify-content: space-between;
+    letter-spacing: 3px;
+    margin-bottom: 13px;
+  }
+
+  .leftNavbar2_1 > span{
+    cursor: pointer;
+  }
+
+  #leftnavbarimg{
+    width: 8%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  #leftnavbarimg > img{
+    height: 78%;
+    width: 92%;
+    margin-top: 15px;
+  }
+
+  .rightNavbar2{
+    /* border: 1px solid blue; */
+    width: 23%;
+    outline-color: white;
+    /* border-color: white; */
+    padding-left: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .rightNavbar2_1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .rightNavbar2_1 > span{
+    font-size: 12px;
+    font-weight: 100px;
+    cursor: pointer;
+  }
+
+  .rightNavbar2_2{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75%;
+    /* border: 1px solid rgb(88,92,99); */
+    background-color: rgb(236,239,241);
+    opacity: 1;
+    width: 56%;
+    white-space: normal;
+    padding-left: 10px;
+    padding-right: 8px;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  .cartprof{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65%;
+    /* border: 1px solid red; */
+    opacity: 1;
+    width: 38%;
+    white-space: normal;
+    font-size: 18px;
+  }
+
+    .cartprof > div:nth-child(1){
+    cursor: pointer;
+  }
+
+  .cartprof > div:nth-child(2){
+    cursor: pointer;
+  }
+
+  .cartprof > div:nth-child(3){
+    cursor: pointer;
+  }
+
+  .Navbar3{
+    height: 50px;
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+    background-color: rgb(236,239,241);
+    letter-spacing: 2px;
+  }
+
+  .Navbar3 > div:nth-child(1){
+    width: 95%;
+  }
+
+  .Navbar3 > span{
+    margin-left: 16px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
