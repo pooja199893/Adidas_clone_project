@@ -1,0 +1,1010 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.net{
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+} 
+.net span{
+    color: white;
+    font-size: 12px;
+}
+.main{
+    /* position: fixed; */
+    width: 100%;
+    background: #ffffff;
+    z-index: 100%;
+}
+.nav{
+    display: flex;
+}
+.logo{
+    width: 25%;
+    z-index: 2000;
+}
+.logo img {
+    object-fit: contain;
+    width: 120px;
+    margin-left:2rem;   
+}
+.aaaa{
+    display: flex;
+    padding-top: 3.2rem;
+    
+}
+.aaaa span{
+    margin-right: 1.2rem;
+}
+ .aaaa span:nth-child(7){
+    font-weight: 500;
+}
+.button{
+    padding-top: 2.5rem;
+    margin-left: 9rem;
+}
+.button i{
+    margin-left: -1.7rem;
+}
+.button input{
+    padding: 5px;
+    width: 200px;
+    height: 25px;
+    background: rgb(236, 239, 241);
+    border: none
+
+}
+.profile{
+padding-top: 3rem;
+position: relative;
+margin-left: 2rem;
+}
+.profile .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgb(255, 214, 25);
+  /* position: absolute; */
+  margin-left: 2rem;
+  margin-top: -1rem;
+}
+.profile .circle span {
+  margin-left: 6px;
+}
+.profile i {
+    margin-right: 1.5rem;
+    font-size: 25px;
+    cursor: pointer;
+}
+.profile .perment{
+  position: fixed;
+}
+.profile .perment1{
+  margin-left: 4rem;
+  position: fixed;
+
+}
+.profile .perment2{
+  margin-left: 6.5rem;
+  position: fixed;
+}
+/* .perment3{
+  position: fixed;
+}
+.payment4{
+  position: fixed;
+} */
+.profile a i:nth-child(1){
+    margin-left: 1rem;
+    position: fixed; 
+  
+}
+/* .profile a i:nth-child(2){
+  margin-right: 5rem;
+}
+ .profile a i:nth-child(3){
+  position: fixed;
+  margin-right:3rem ;
+} */
+.brand{
+    background-color: rgb(236,239,241);
+    justify-content: center;
+    padding-bottom: 0.3rem;
+    padding-top: 2rem;
+    height: 30px;
+    display: flex;
+}
+.brand i{
+    margin-left: 27rem;
+    position: absolute;
+}
+.brand h3{
+    font-weight: 300;
+    font-size: 17px;
+}
+.help{
+    display: flex;
+    margin-left: 75rem;
+    margin-top: 0.5rem;
+    position: absolute;
+
+}
+.help span{
+    margin-right: 1rem;
+    font-size: smaller;
+}
+
+.image img{
+    width: 100%;
+
+}
+.extra {
+    margin-top: 13rem;
+    margin-left: 4rem;
+    position: absolute;
+  }
+  .extra h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 40px;
+    padding-bottom: 1rem;
+  }
+  .extra p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 1.5rem;
+  }
+  .extra button {
+    width: 150px;
+    height: 35px;
+  }
+  .extra i {
+    margin-left: 1rem;
+  }
+  .still h1{
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  .popular h1 {
+    margin-left: 4rem;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+  }
+  .popular-item1 {
+    display: flex;
+    margin-left: 4rem;
+  }
+  .popular-item2 {
+    display: flex;
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+  }
+  .popular h2 {
+    font-size: 40px;
+  }
+  
+  .popular-item1 div:nth-child(1) {
+    width: 30%;
+    border-bottom: 1px solid;
+    margin-right: 4rem;
+  }
+  .popular-item1 div:nth-child(2) {
+    width: 30%;
+    border-bottom: 1px solid;
+    margin-right: 4rem;
+  }
+  .popular-item1 div:nth-child(3) {
+    width: 30%;
+    border-bottom: 1px solid;
+  }
+  .popular-item2 div:nth-child(1) {
+    width: 30%;
+    border-bottom: 1px solid;
+    margin-right: 4rem;
+  }
+  .popular-item2 div:nth-child(2) {
+    width: 30%;
+    border-bottom: 1px solid;
+    margin-right: 4rem;
+  }
+  .popular-item2 div:nth-child(3) {
+    width: 30%;
+    border-bottom: 1px solid ;
+  }
+  .new {
+    margin-top: 4rem;
+    display: flex;
+    margin-left: 4rem;
+  }
+  .new button:nth-child(1) {
+    width: 130px;
+    height: 40px;
+    background: black;
+    color: white;
+  }
+  .new button:nth-child(2) {
+    width: 130px;
+    height: 40px;
+    margin-left: 5px;
+    background:white;
+    border: 1px solid;
+    font-weight: 600;
+  }
+  .shoes {
+    display: flex;
+    margin-left: 3.5rem;
+    overflow-x: auto;
+    width: 100%;
+    padding-bottom: 2.5rem;
+  }
+  .shoes::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  .shoes::-webkit-scrollbar-thumb {
+    background-color: #0e0d0d;
+    border-radius: 5px;
+  }
+  
+  .shoes::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  .shoes-store {
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    flex: 0 0 auto;
+  }
+  .shoes-store .stan-block img {
+    width: 300px;
+  }
+  .shoes-store .stan-block a {
+    position: absolute;
+    text-align: end;
+    width: 300px;
+    font-size: 20px;
+    margin-top: 0.5rem;
+    margin-left: -1rem;
+  }
+  .stan{
+    margin-top: -2rem;
+    line-height: 1.5rem;
+    padding-left: 0.5rem;
+  }
+  .stan button {
+    background:white;
+    padding: 5px;
+  }
+  .whats-hot {
+    margin-top: 2rem;
+    margin-left: 4rem;
+  }
+  .what {
+    display: flex;
+    overflow-x: auto;
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .what::-webkit-scrollbar {
+    width: 5px;
+  }
+  .banner-block {
+    width: 300px;
+    margin-right: 1rem;
+    margin-top: 2rem;
+  }
+  .banner-block a {
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+  }
+  .banner-block video {
+    width: 300px;
+  }
+  .adjust{
+    display: flex;
+    margin-left: 3rem;
+    width: 90%;
+  }
+  .heading h3 {
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+  }
+  .heading p {
+    margin-bottom: 0.8rem;
+  }
+ .stories {
+    display: flex;
+    padding-left: 3rem;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+    background: rgb(245, 245, 229);
+  }
+  .stories .sec1 {
+    width: 50%;
+    padding: 1.3rem;
+  }
+  .stories .sec2 {
+    width: 50%;
+    padding: 1.3rem;
+    padding-right: 3rem;
+  }
+  .stories .sec1 h1 {
+    font-size: 25px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .stories .sec2 h1 {
+    font-size: 25px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .join {
+    display: flex;
+    background: rgb(237, 231, 52);
+    justify-content: center;
+    padding: 3rem;
+  }
+  .join h1 {
+    font-size: 25px;
+    font-weight: 900;
+    margin-right: 1rem;
+  }
+  .join.second {
+    width: 190px;
+    height: 40px;
+    background: black;
+    color: #fff;
+  }
+  .join.second i {
+    margin-left: 1rem;
+  }
+  .join.first {
+    width: 190px;
+    height: 40px;
+    border: 1px solid;
+    position: absolute;
+    background: transparent;
+    margin-left: 415px;
+    margin-top: 4px;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 2rem;
+  }
+
+  .footer div {
+    margin-right: 3rem;
+  }
+  .footer div:nth-child(5) {
+    width: 100px;
+    margin-left: -2rem;
+    margin-right: 3rem;
+  }
+  .footer div li {
+    line-height: 1.7rem;
+  }
+  .footer div h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .footer .follow-us i {
+    font-size: 1.6rem;
+  }
+  .footer2 {
+    background: rgb(40, 44, 49);
+    color: #fff;
+    padding: 2rem 0rem 0rem 0rem;
+    margin-top: 2rem;
+  }
+  .footer2 .pravacy {
+    display: flex;
+    justify-content: center;
+  }
+  .footer2 .pravacy p:nth-child(1) {
+    padding-right: 1rem;
+    border-right: 1px solid white;
+  }
+  .footer2 .pravacy p:nth-child(2) {
+    padding-right: 1rem;
+    border-right: 1px solid white;
+    padding-left: 1rem;
+  }
+  .footer2 .pravacy p:nth-child(3) {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .footer2 .at-the-rate {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0rem;
+  }
+  .manpic button{
+    margin-bottom: 16rem;
+    font-size:15px ;
+    margin-left: 6rem;
+    height:3rem ;
+    width: 10rem;
+    margin-top:1rem ;
+  }
+  .manpic h1{
+    color: white;
+    padding-top: 12rem;
+    padding-left: 6rem;
+    font-size: 42px;
+  }
+  .manpic p{
+    color: white;
+    padding-top:1rem ;
+    padding-left:6rem ;
+  }
+  .you {
+
+  }
+.you h1{
+    color: white;
+    margin-left: 6rem;
+    padding-top: 10rem;
+
+}
+.you p{
+    padding-top: 1rem; 
+    margin-left: 6rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+.you button{
+    margin-bottom: 30rem;
+    margin-left: 6rem;
+    width: 13rem;
+    height: 4rem;
+    font-size: 15px;
+}
+.mens{
+    margin-top: 3rem;
+}
+.mens h1{
+    text-align: center;
+}
+.mens p {
+    text-align: center;
+    line-height: 20px;
+    
+}
+.poster{
+    width: 100%;
+}
+.you-got h1{
+    font-weight: 600;
+    font-size: 40px;
+    padding-bottom: 1rem;
+    color: #f1f1f1;
+    padding-top: -1rem;
+}
+.you-got p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 1.5rem;
+}
+  .you-got button {
+    width: 150px;
+    height: 35px;
+  }
+  .you-got i {
+    margin-left: 1rem;
+  }
+  .poster{
+    margin-top: 5px;
+  }
+  /* account adi */
+  .account {
+    margin-top: 8rem;
+    display: flex;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    justify-content: space-between;
+  }
+  .account .name h2 {
+    letter-spacing: 1px;
+    font-weight: 800;
+  }
+  .symbol {
+    display: flex;
+    margin-top: 5px;
+  }
+  .symbol p {
+    margin-left: 5px;
+  }
+  .account-bar {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid;
+    width: 100%;
+  }
+  .account-bar a {
+    margin: 1rem 1rem 0 1rem;
+    font-size: 14px;
+  }
+  .account-bar a:nth-child(3) {
+    border-bottom: 2px solid;
+    padding-bottom: 1rem;
+    font-weight: 700;
+  }
+  .main-account {
+    display: flex;
+  }
+  .main-account .overview {
+    margin-left: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+  .overview h3 {
+    padding-bottom: 2rem;
+  }
+  .possition{
+
+   position: fixed;
+    bottom: 0;
+     right: 0;
+  }
+  .personal-informestion .per-info {
+    line-height: 3rem;
+    background: #fff;
+    width: 200px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
+  .personal-informestion .per-info i {
+    float: right;
+    padding-top: 1rem;
+    margin-right: 1rem;
+  }
+  .personal-informestion .per-info p:nth-child(1) {
+    font-weight: 700;
+  }
+  .details {
+    margin-left: 3rem;
+    background: #fff;
+    height: auto;
+    margin-top: 4rem;
+    width: 900px;
+    padding: 2rem;
+  }
+  .detailsheading {
+    line-height: 2.5rem;
+  }
+  .details-acc {
+    margin-top: 3rem;
+    line-height: 2rem;
+  }
+  .details-acc h3 {
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+  }
+  .details-acc p:nth-child(6) {
+    letter-spacing: 5px;
+    text-decoration: underline;
+  }
+  .edits{
+    text-decoration: underline;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .logindetails {
+    margin-top: 2rem;
+    line-height: 2rem;
+  }
+  .logindetails h3 {
+    margin-bottom: 1rem;
+  }
+  .logoutdetails {
+    margin-top: 4rem;
+  }
+  .logoutdetails h3 {
+    margin-bottom: 1rem;
+  }
+  .logmeout {
+    border: 1px solid;
+    width: 400px;
+    display: flex;
+    margin-top: 1rem;
+    padding: 1rem;
+    justify-content: space-between;
+  }
+  .logmeout p {
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .delte-text {
+    margin-top: 2rem;
+  }
+  .producthelp {
+    display: flex;
+    list-style: none;
+    background: #fff;
+    width: 890px;
+    padding: 2rem;
+    height: fit-content;
+    line-height: 2rem;
+  }
+  .helpp{
+    margin-bottom: 1rem;
+  }
+  .section {
+    margin-left: 26%;
+    margin-top: 3rem;
+    margin-right: 2rem;
+  }
+  .products {
+    margin-right: 4rem;
+  }
+  .promotions {
+    margin-right: 4rem;
+  }
+/* BAGS */
+  .messagebox {
+    display: flex;
+    margin-top: 8rem;
+  }
+  .messagebox .your {
+    width: 60%;
+  }
+  .messagebox .msg {
+    width: 600px;
+    height: 55px;
+    background: #eceff1;
+    margin-left: 6rem;
+    padding: 2rem 0 0 2rem;
+  }
+  .msg h1 {
+    font-size: 22px;
+  }
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid #eceff1;
+    transform: rotate(180deg);
+    margin-left: 10rem;
+  }
+  .youb h1 {
+    margin-left: 6rem;
+    margin-top: 1rem;
+    font-size: 25px;
+  }
+  .total {
+    margin-left: 6rem;
+    margin-top: 1rem;
+  }
+  .item {
+    display: flex;
+    margin-top: 2.5rem;
+    border: 1px solid;
+    margin-left: 6rem;
+    height: 250px;
+    padding-right: 1rem;
+  }
+  .item img {
+    width: 100%;
+    height: 100%;
+  }
+  .item .imgcontent {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    line-height: 1.3rem;
+  }
+  .item .imgcontent p:nth-child(3) {
+    margin-top: 1rem;
+  }
+  .item .imgcontent p:nth-child(4) {
+    font-weight: 700;
+  }
+  .imgcontent select {
+    position: absolute;
+    transform: scale(2);
+    border: none;
+    width: 45px;
+    border: 1px solid #fff;
+  }
+  .imgcontent .select {
+    width: 100px;
+    height: 50px;
+    border: 1px solid;
+    margin-top: 3.8rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .price{
+    margin-top: 0.5rem;
+  }
+  .price i {
+    margin-left: 15px;
+    font-size: 25px;
+  }
+  .price p:nth-child(1) {
+    margin-left: -1rem;
+  }
+  .price p:nth-child(2) {
+    display: flex;
+    justify-content: right;
+    margin-top: 2rem;
+  }
+  .price p:nth-child(2) i {
+    font-size: 18px;
+  }
+  .shues{
+    background: #fff;
+    width: fit-content;
+    padding: 2px;
+    margin-top: 7px;
+    font-weight: 700
+  }
+  .top {
+    margin-left: 6rem;
+    margin-top: 1.5rem;
+  }
+  .itemcontent {
+    margin-top: 2rem;
+    margin-left: 10px;
+    position: relative;
+  }
+  .itemcontent img {
+    width: 200px;
+    display: block;
+  }
+  .itemcontent i {
+    position: absolute;
+  }
+  .itemcontent .heartsign {
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+  }
+  .heartsign i {
+    margin-top: 1.5rem;
+    position: absolute;
+  }
+  .itcontent {
+    position: relative;
+    margin-top: -4rem;
+    line-height: 2rem;
+    margin-left: 7px;
+  }
+  .picsitem {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-left: 6rem;
+    padding-bottom: 2rem;
+  }
+  ::-webkit-scrollbar {
+    width: 20px !important;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #888 !important;
+  }
+  .ordersummary {
+    margin-left: 2rem;
+  }
+  .delivery {
+    margin-top: 0.6rem;
+    margin-left: 6rem;
+    line-height: 2rem;
+    margin-bottom: 5rem;
+  }
+  .delivery a {
+    color: black;
+    text-decoration: underline;
+    margin-left: 5px;
+  }
+  .checkoutbtn button:nth-child(2) {
+    width: 350px;
+    padding: 1rem 0 1rem 0;
+    margin-left: 5px;
+    margin-top: 5px;
+    background: transparent;
+  }
+  .checkoutbtn button:nth-child(1) {
+    width: 350px;
+    padding: 1rem 0 1rem 0;
+    position: absolute;
+    background: black;
+    color: #fff;
+    display: flex;
+    padding-left: 1.5rem;
+  }
+  .checkoutbtn i {
+    margin-left: 13rem;
+  }
+  a {
+    color: black;
+  }
+  .orders {
+    margin-top: 3rem;
+  }
+  .orderitem {
+    margin-top: 2rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5rem;
+  }
+  .order-i #lis {
+    margin-top: 1rem;
+    font-weight: 700;
+  }
+  .priceq #lis {
+    margin-top: 1rem;
+    font-weight: 700;
+  }
+  .promo-code {
+    display: flex;
+    margin-top: 4rem;
+  }
+  .promo-code p {
+    letter-spacing: 1.3px;
+    margin-left: 20px;
+    text-decoration: underline;
+    font-weight: 700;
+  }
+  .payment {
+    margin-top: 4.5rem;
+  }
+  .payment p {
+    font-size: smaller;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  
+
+
+
+
+  .main__1 {
+    margin-top: 2rem;
+    display: flex;
+    padding: 7rem 7rem 5rem 7rem;
+  }
+  .join-the-club {
+    padding: 2rem 5rem 1rem 0rem;
+  }
+  .join-the-club h1 {
+    letter-spacing: 1px;
+  }
+  .join-adiclub p {
+    margin-bottom: 1rem;
+  }
+  .adiclub ul {
+    list-style: none;
+    font-size: 18px;
+  }
+  .adiclub ul li {
+    padding: 0.5rem;
+  }
+  .adiclub ul i {
+    padding: 0.5rem;
+  }
+  .check-below {
+    margin-top: 1rem;
+    padding-right: 5rem;
+    font-size: 20px;
+  }
+  .main__2 {
+    padding-left: 2rem;
+  }
+  .benefits-await h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .login p {
+    margin-top: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+  }
+  .icon-media {
+    display: flex;
+    width: 38%;
+    justify-content: space-between;
+  }
+  .icon-media div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .icon-media div i {
+    margin-top: 15%;
+    font-size: 35px;
+  }
+  .icon-media div img {
+    width: 35px;
+    margin-top: 15%;
+  }
+  .field {
+    width: 70%;
+  }
+  .field input {
+    width: 100%;
+    height: 10px;
+    margin-top: 1rem;
+    padding: 1.5rem;
+  }
+  .three-check p {
+  }
+  .three-check input[type="checkbox"] {
+    transform: scale(2);
+  }
+  .three-check .check1 {
+    display: flex;
+    width: 90%;
+  }
+  .three-check .check1 p {
+    margin-left: 1rem;
+    padding-top: 2rem;
+    line-height: 22px;
+  }
+  .three-check .check2 {
+    display: flex;
+    width: 90%;
+  }
+  .three-check .check2 p {
+    margin-left: 1rem;
+    padding-top: 1rem;
+    line-height: 22px;
+  }
+  .three-check .check3 {
+    display: flex;
+    width: 90%;
+    margin-top: 1.5rem;
+  }
+  .three-check .check3 p {
+    margin-left: 1rem;
+    padding-top: 0rem;
+    line-height: 22px;
+  }
+  .continue-btn {
+    margin-top: 2.5rem;
+  }
+  .continue-btn button {
+    padding: 1rem 1rem 1rem 1rem;
+    width: 180px;
+    color: #fff;
+  }
+  .continue-btn button:nth-child(1) {
+    position: absolute;
+    background: black;
+    margin-right: 1rem;
+  }
+  .continue-btn button:nth-child(1) i {
+    margin-left: 1rem;
+    font-size: 18px;
+  }
+  .continue-btn button:nth-child(2) {
+    height: 53px;
+    padding-bottom: 2.6rem;
+    margin-left: 0.4rem;
+    background: transparent;
+    border: 1px solid black;
+    margin-top: 6px;
+  }
