@@ -14,7 +14,7 @@ app.use(morgan("combined"));
 app.use(
   cors({
     credentials: true,
-    origin: ["http://localhost:3000"],
+    origin: ["https://adidas-clone-project.vercel.app"],
   })
 );
 dotenv.config();
